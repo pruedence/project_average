@@ -38,14 +38,17 @@ namespace Projekt_1
 
                         case "1":
                             listBox1.Items.Add(textBox1.Text);
+                            listBox1.Height += 15;
                             textBox1.Clear();
                             break;
                         case "3":
                             listBox2.Items.Add(textBox1.Text);
+                            listBox2.Height += 15;
                             textBox1.Clear();
                             break;
                         case "5":
                             listBox3.Items.Add(textBox1.Text);
+                            listBox3.Height += 15;
                             textBox1.Clear();
                             break;
 

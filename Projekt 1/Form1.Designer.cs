@@ -77,9 +77,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(85, 32);
+            this.textBox1.Location = new System.Drawing.Point(92, 33);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(36, 20);
+            this.textBox1.Size = new System.Drawing.Size(29, 20);
             this.textBox1.TabIndex = 3;
             // 
             // label1
@@ -113,25 +113,28 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.IntegralHeight = false;
             this.listBox1.Location = new System.Drawing.Point(17, 80);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(36, 82);
+            this.listBox1.Size = new System.Drawing.Size(36, 0);
             this.listBox1.TabIndex = 8;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
+            this.listBox2.IntegralHeight = false;
             this.listBox2.Location = new System.Drawing.Point(85, 80);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(36, 82);
+            this.listBox2.Size = new System.Drawing.Size(36, 0);
             this.listBox2.TabIndex = 9;
             // 
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
+            this.listBox3.IntegralHeight = false;
             this.listBox3.Location = new System.Drawing.Point(153, 80);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(35, 82);
+            this.listBox3.Size = new System.Drawing.Size(35, 0);
             this.listBox3.TabIndex = 10;
             this.listBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listBox3_MouseClick);
             // 
