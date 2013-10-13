@@ -38,7 +38,7 @@ namespace Projekt_1
 
                         case "1":
                             listBox1.Items.Add(textBox1.Text);
-                            listBox1.Height += 15;
+                            listBox1.Height += 15; //tu pasuje dać niecałkowitą
                             textBox1.Clear();
                             break;
                         case "3":
