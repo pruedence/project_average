@@ -68,7 +68,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(274, 89);
+            this.button2.Location = new System.Drawing.Point(274, 80);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
@@ -102,7 +102,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(274, 213);
+            this.button3.Location = new System.Drawing.Point(274, 139);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 7;
@@ -113,25 +113,25 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(17, 89);
+            this.listBox1.Location = new System.Drawing.Point(17, 80);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(36, 147);
+            this.listBox1.Size = new System.Drawing.Size(36, 82);
             this.listBox1.TabIndex = 8;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(85, 89);
+            this.listBox2.Location = new System.Drawing.Point(85, 80);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(36, 147);
+            this.listBox2.Size = new System.Drawing.Size(36, 82);
             this.listBox2.TabIndex = 9;
             // 
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(153, 89);
+            this.listBox3.Location = new System.Drawing.Point(153, 80);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(35, 147);
+            this.listBox3.Size = new System.Drawing.Size(35, 82);
             this.listBox3.TabIndex = 10;
             this.listBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listBox3_MouseClick);
             // 
@@ -166,7 +166,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 258);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(365, 177);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
