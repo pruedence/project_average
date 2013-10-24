@@ -50,8 +50,8 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(222, 85);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Autorzy:\r\n     Konrad Cygal & Sabina Wrońska\r\n\r\n              Projekt zespołowy \r" +
-    "\n        © Katowice, Październik 2013 r.";
+            this.textBox1.Text = "Autorzy:\r\n       Sabina Wrońska & Konrad Cygal\r\n\r\n              Projekt zespołowy" +
+    " \r\n        © Katowice, Październik 2013 r.";
             // 
             // Form2
             // 
@@ -66,6 +66,7 @@
             this.MinimizeBox = false;
             this.Name = "Form2";
             this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "+";
             this.ResumeLayout(false);

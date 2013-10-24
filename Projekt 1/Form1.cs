@@ -72,8 +72,8 @@ namespace Projekt_1
             }
             catch (NullReferenceException ex)
             {
-                Form3 newForm1 = new Form3();
-                newForm1.Show();
+                Form4 nF = new Form4();
+                nF.Show();
             }
         }
 
@@ -139,9 +139,7 @@ namespace Projekt_1
 
       private void pictureBox7_Click(object sender, EventArgs e)
       {
-          double sum1 = 0;
-          double sum2 = 0;
-          double sum3 = 0;
+          double sum1 = 0, sum2 = 0, sum3 = 0;
           double num1 =0, num2=0, num3 = 0;
           
           double weight;
